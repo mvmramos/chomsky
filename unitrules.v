@@ -1,26 +1,25 @@
 (* ---------------------------------------------------------------------
 
    This file is part of a repository containing the definitions and 
-   proof scripts related to the formalization of context-free language
-   theory in Coq. Specifically, the following results were obtained:
+   proof scripts related to the formalization of the Chomsky Normal
+   Form for context-free grammars in Coq. Specifically, the following 
+   results were obtained:
    
-   (i) closure operations for context-free grammars, 
-   (ii) context-free grammars simplification 
-   (iii) context-free grammar Chomsky normalization and 
-   (iv) pumping lemma for context-free languages.
+   (i) context-free grammar simplification 
+   (i) context-free grammar Chomsky normalization and 
    
-   More information can be found in thesis "Formalization of 
-   Context-Free Language Theory", submitted to the Informatics
-   Center of the Pernambuco Federal University (CIn/UFPE) in
-   Brazil.
+   More information can be found in the paper "Formalization of 
+   the Chomsky Normal Form for context-free grammars", submitted 
+   EBL 2014.
    
-   The file README.md descbrides the contents of each file and 
-   provides instructions to compile them.
+   The file README.md describes the contents of each file and 
+   provides instructions on how to compile them.
    
    Marcus Vinícius Midena Ramos
    mvmramos@gmail.com
+
    --------------------------------------------------------------------- *)
-   
+
 (* --------------------------------------------------------------------- *)
 (* SIMPLIFICATION - UNIT RULES                                           *)
 (* --------------------------------------------------------------------- *)
