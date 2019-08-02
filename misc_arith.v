@@ -9,8 +9,8 @@
    (i) context-free grammar Chomsky normalization and 
    
    More information can be found in the paper "Formalization of 
-   the Chomsky Normal Form for context-free grammars", submitted 
-   EBL 2014.
+   the Chomsky Normal Form for Context-Free Grammars", submitted 
+   to SBMF 2019.
    
    The file README.md describes the contents of each file and 
    provides instructions on how to compile them.
