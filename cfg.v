@@ -9,8 +9,8 @@
    (i) context-free grammar Chomsky normalization and 
    
    More information can be found in the paper "Formalization of 
-   the Chomsky Normal Form for context-free grammars", submitted 
-   EBL 2014.
+   the Chomsky Normal Form for Context-Free Grammars", submitted 
+   to SBMF 2019.
    
    The file README.md describes the contents of each file and 
    provides instructions on how to compile them.
@@ -2983,7 +2983,6 @@ induction H as [ | s | l s1 s2 H0 H1 IH H2 H3].
             destruct l0 as [|s0 l0].
             - simpl in H5.
               subst.
-              rewrite <- H2.
               rewrite <- H6.
               simpl. 
               reflexivity.              
@@ -3022,7 +3021,6 @@ induction H as [ | s | l s1 s2 H0 H1 IH H2 H3].
             destruct l0 as [|s0 l0].
             - simpl in H5.
               subst.
-              rewrite <- H2.
               rewrite <- H6.
               simpl. 
               reflexivity.
