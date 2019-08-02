@@ -9,8 +9,8 @@
    (i) context-free grammar Chomsky normalization and 
    
    More information can be found in the paper "Formalization of 
-   the Chomsky Normal Form for context-free grammars", submitted 
-   EBL 2014.
+   the Chomsky Normal Form for Context-Free Grammars", submitted 
+   to SBMF 2019.
    
    The file README.md describes the contents of each file and 
    provides instructions on how to compile them.
@@ -617,7 +617,8 @@ destruct H1 as [H1 | H1].
     * destruct H1 as [s1 [s2 H1]].
       right.
       destruct s1, s2.
-      exists l l0.
+      exists l.
+      exists l0.
       exact H1.
     * destruct H1 as [t H1].
       left.
@@ -1895,10 +1896,12 @@ inversion H.
   exists t.
   reflexivity.
 - left.
-  exists (Lift_r [s1]) (Lift_r (s2 :: beta)).
+  exists (Lift_r [s1]). 
+  exists (Lift_r (s2 :: beta)).
   reflexivity.
 - left.
-  exists (Lift_r [s2]) (Lift_r (s3 :: beta)).
+  exists (Lift_r [s2]).
+  exists (Lift_r (s3 :: beta)).
   reflexivity.
 Qed.
 
