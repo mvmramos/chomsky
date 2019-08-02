@@ -19,12 +19,12 @@ File list:
 - useless.v: elimination of useless symbols in a context-free grammar;
 
 To compile, download all files and:
-- coq_makefile *.v > _makefile
+- coq_makefile *.v -o _makefile
 - make -f _makefile
 
-The files have been created and compiled with the Coq Proof Assistant, version 8.4pl4 (June 2014).
+The files have been created and compiled with the Coq Proof Assistant, version 8.9.0 (January 2019), under Ubuntu 17.04.
 
-More information can be found in the paper "Formalization of the Chomsky Normal Form for context-free grammars", submitted to EBL 2014.
+More information can be found in the paper "Formalization of the Chomsky Normal Form for context-free grammars", submitted to SBMF 2019.
 
 Marcus Vinícius Midena Ramos
 
